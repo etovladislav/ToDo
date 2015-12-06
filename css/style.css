@@ -1,0 +1,211 @@
+html {
+    position: relative;
+}
+
+body {
+    background-color: #dee9f1;
+}
+
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Comfortaa-Light; /* Имя шрифта */
+    src: url(../fonts/Comfortaa-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+.navbar-default {
+    z-index: 10000;
+    border-radius: inherit;
+    border-right: 0;
+!important;
+    border-left: 0;
+!important;
+    border-bottom: 0;
+!important;
+    background-color: #34302d;
+!important;
+    border-top: 4px solid #5b9cf3;
+!important;
+    height: 70px;
+
+}
+
+.navbar .nav li a {
+    color: #ffffff;
+!important;
+    font-family: Roboto-Light;
+    text-transform: uppercase;
+    height: 66px;
+
+}
+
+.navbar .nav li a:hover,
+.navbar .nav li a:active {
+    background-color: #5b9cf3;
+    color: #ffffff;
+!important;
+}
+
+.navbar-collapse {
+    background-color: #34302d;
+!important;
+    text-align: center;
+}
+
+.navbar-toggle {
+    border: inherit;
+!important;
+}
+
+.navbar .nav li.active a,
+.navbar .nav li.active a:hover {
+    background-color: #5b9cf3;
+    color: #ffffff;
+!important;
+}
+
+.icon-bar {
+    background-color: #5b9cf3;
+!important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .nav li.active a,
+    .navbar .nav li.active a:hover {
+        color: #ffffff;
+    !important;
+        border-bottom: 0px;
+
+    }
+
+}
+
+.post-date {
+    background: #eee;
+    color: #31b0d5;
+}
+
+.toggled {
+    position: absolute;
+    margin-right: -250px;
+}
+
+#profileCol .profile-sidebar {
+    min-height: 410px;
+}
+
+.hr-sep {
+    border: 1px solid #eee;
+}
+
+.profile {
+    margin: 20px 0;
+
+}
+
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+    border: 1px solid rgba(91, 156, 243, 0.34);
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #6ebdf3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9cf3;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9cf3;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9cf3;
+    margin-left: -2px;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 410px;
+    border: 1px solid rgba(91, 156, 243, 0.34);
+
+}
+
+.button-select {
+    color: gray;
+}
